@@ -37,14 +37,17 @@
       border-radius: 8px;
     }
 
-    .logo{
-    margin:auto;
-    background-color:000000;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
+   .sticky-image-wrapper{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
+
+    .sticky-image-wrapper img{
+        display: table;
+        position: relative;
+        margin: auto;
+   }
   
     .button-container {
       margin-top: 250px;
@@ -64,7 +67,7 @@
       <button class="button otherAmount"> Other Ammount </button>
     </div>
     </center>
-  <div class="logo">
+  <div class="sticky-image-wrapper">
     <img src="sample-logo.png" width="500" height="100">
     </div>
   </body>
